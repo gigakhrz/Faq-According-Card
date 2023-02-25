@@ -116,3 +116,44 @@ h1 {
 .question5 hr{
     margin: 0;
 }
+
+@media screen and (min-width: 1024px) {
+
+    body{
+        padding: 148px 0px 85px;
+    }
+
+    section{
+        display: flex;
+        max-width: 920px;
+        justify-content: space-between;
+        padding: 65px 111px 83px 0px;
+        background-image: url(./images/illustration-woman-online-desktop.svg), url(images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 472px 359px,964px 944px;
+        background-position:-72px 50px, -564px -300px;
+        margin: auto;
+    }
+
+    .photo-container{
+        display: unset;
+        margin: 0;
+    }
+
+    .shadow ,.ilustration{
+        display: none;
+    }
+
+    main{
+        min-width: 350px;
+    }
+
+    h1{
+        text-align: left;
+    }
+
+    p{
+        font-size: 14px;
+    }
+    
+}
