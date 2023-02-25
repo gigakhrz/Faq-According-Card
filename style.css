@@ -16,6 +16,8 @@ section{
     background-color: white;
     width: 100%;
     padding: 0 24px 48px;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+    border-radius: 23px;
 }
 
 .photo-container{
@@ -43,6 +45,7 @@ main{
     margin-top: 28px;
 }
 
+/* general text styles */
 h4{
     font-size: 13px;
     font-weight: 400;
@@ -60,9 +63,13 @@ p{
 }
 
 hr{
+    border: 0;
     height: 1px;
-    color: #E8E8EA;
+    background-color: #E8E8EA;
+    margin-bottom: 19px;
 }
+
+/*  */
 
 h1 {
     text-align: center;
@@ -75,9 +82,8 @@ h1 {
 
 .first{
     display: flex;
-    gap: 35px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 13px;
 }
 
@@ -89,4 +95,24 @@ h1 {
 
 .invite{
     display: none;
+}
+
+.upload-size{
+    display: none;
+}
+
+.password{
+    display: none;
+}
+
+.subscription{
+    display: none;
+}
+
+.support{
+    display: none;
+}
+
+.question5 hr{
+    margin: 0;
 }
