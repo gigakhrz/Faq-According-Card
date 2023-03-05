@@ -47,12 +47,18 @@ main{
 }
 
 /* general text styles */
+
 h4{
     font-size: 13px;
     font-weight: 400;
     line-height: 16px;
     text-align: left;
     color: #4B4C5F;
+}
+
+h4:hover , p:hover{ 
+    color: #F47B56;
+    cursor: pointer;
 }
 
 p{
@@ -88,30 +94,26 @@ h1 {
     margin-bottom: 13px;
 }
 
+.answer{
+    display: none;
+}
+
+.active .answer{
+    display: block;
+}
+
+.active .first h4{
+    font-weight: 900;
+}
+
+.active .arrow1{
+    transform: rotate(180deg);
+}
+
 .arrow1{
     width: 10px;
     height: 7px;
     align-items: center;
-}
-
-.invite{
-    display: none;
-}
-
-.upload-size{
-    display: none;
-}
-
-.password{
-    display: none;
-}
-
-.subscription{
-    display: none;
-}
-
-.support{
-    display: none;
 }
 
 .question5 hr{
@@ -146,7 +148,7 @@ h1 {
     }
 
     main{
-        min-width: 350px;
+        width: 350px;
     }
 
     h1{
