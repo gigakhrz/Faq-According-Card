@@ -147,6 +147,13 @@ h1 {
         display: none;
     }
 
+    .box{
+        display: block;
+        top: 120px;
+        position: absolute;
+        left: -95px;
+    }
+
     main{
         width: 350px;
     }
